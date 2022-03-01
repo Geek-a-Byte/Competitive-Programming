@@ -1,0 +1,165 @@
+#include<stdio.h>
+#include<stdlib.h>
+int *array;
+int maxsize=12;
+int size;
+void init()
+{
+     array=(int*)malloc(sizeof(int)*maxsize);
+     size=0;
+}
+void shrink()
+{
+    int amount;
+    printf("Enter the amount you want to shrink\n");
+    scanf("%d",&amount);
+    maxsize=maxsize-amount;
+    array=(int*)realloc(array,maxsize*sizeof(int));
+    size=size-amount;
+    printArray();
+}
+
+int InsertAt(int val,int pos)
+{
+    if(size==maxsize)
+    {
+        maxsize=maxsize*2;
+        array=(int*)realloc(array,maxsize*sizeof(int));
+    }
+    size++;
+    for(int i=size;i>pos;i--)
+    {
+        array[i]=array[i-1];
+    }
+    array[pos]=val;
+    return 1;
+
+}
+
+int DeleteFirst()
+{
+    for(int i=0;i<size;i++)
+    {
+        array[i]=array[i+1];
+
+    }
+    size--;
+    return 1;
+
+}
+void printArray()
+{
+    for(int i=0;i<size;i++)
+    {
+        printf("%d ",array[i]);
+    }
+
+}
+
+int main()
+{
+  init();
+  printf("Enter the capacity of the array:\n");
+  scanf("%d",&size);
+  printf("enter the elements of the array:\n");
+  for(int i=0;i<size;i++)
+  {
+      scanf("%d",&array[i]);
+  }
+  printf("Enter 1 for Insertat\nEnter 2 for Deletefirst\nEnter 3 for Printarray\nEnter 4 for Quit\nEnter 5 for shrink\n");
+  int choose;
+  printf("Enter the option you want to select\n");
+  scanf("%d",&choose);
+  while(1){
+  if(choose==1)
+  {
+      int val,pos;
+      printf("enter the value and the pos:\n");
+      scanf("%d%d",&val,&pos);
+      if(InsertAt(val,pos))
+      {
+          printf("the first element was successfully inserted\n");
+      }
+      else
+      {
+          printf("The first element was not inserted\n");
+      }
+      printf("Enter the option you want to select\n");
+      scanf("%d",&choose);
+
+  }
+  else if(choose==2)
+  {
+      if(DeleteFirst())
+      {
+          printf("The first element of the array was deleted\n");
+      }
+      else
+      {
+          printf("the first element of the array was not deleted\n");
+      }
+      printf("Enter the option you want to select\n");
+      scanf("%d",&choose);
+  }
+  else if(choose==3)
+  {
+      printArray();
+      printf("Enter the option you want to select\n");
+      scanf("%d",&choose);
+  }
+  else
+  {
+      break;
+
+  }
+  }
+    free(array);
+}
+/////////////////////////////////////////////////////////////////////////////
+
+
+#include<stdio.h>
+#include<stdlib.h>
+struct Node{
+int val;
+struct Node *next;
+};
+
+
+struct Node *head;
+void print(struct Node *hd)
+{
+    struct Node *curr;
+    curr=head;
+
+    for(int i=0;i<3;i++){
+        printf("Node No, value , address: %d %d %x\n",i+1,curr->val,curr->next);
+        curr=curr->next;
+    }
+
+}
+
+int main()
+{
+
+
+    struct Node *newNode1=(struct Node*)malloc(sizeof(struct Node));
+    struct Node *newNode2=(struct Node*)malloc(sizeof(struct Node));
+    struct Node *newNode3=(struct Node*)malloc(sizeof(struct Node));
+    newNode1->val=15;
+    head=newNode1;
+    newNode1->next=newNode2;
+
+
+
+    //struct Node *newNode2=(struct Node*)malloc(sizeof(struct Node));
+    newNode2->val=30;
+    newNode2->next=newNode3;
+
+    //struct Node *newNode3=(struct Node*)malloc(sizeof(struct Node));
+    newNode3->val=45;
+    newNode3->next=NULL;
+    printf("%d %x %x\n",head->val,&head,&newNode1);
+    printf("%d %x %d %x %d %x\n",newNode1->val,newNode1,newNode2->val,newNode1->next,newNode3->val,newNode2->next);
+    print(head);
+}

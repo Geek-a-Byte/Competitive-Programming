@@ -1,0 +1,25 @@
+a -> b c 
+b -> a 
+c -> a d e 
+d -> c 
+e -> c 
+BFS sequence: a b c d e 
+BFS sequence: d c a e b 
+maximum distance is 3
+
+
+
+
+a -> b c 
+b -> a 
+c -> a d e 
+d -> c f 
+e -> c 
+f -> d 
+BFS sequence: a b c d e f 
+BFS sequence: f d c a e b 
+maximum distance is 4
+
+
+
+

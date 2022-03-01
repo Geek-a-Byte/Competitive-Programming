@@ -1,0 +1,27 @@
+Stat	#	Origin	Title
+Solved	20 / 54	A	UVA 10815	    Andy's First Dictionary
+Solved	37 / 37	B	CodeForces 405A	Gravity Flip
+Solved	21 / 69	C	UVA 11849	    CD
+Solved	13 / 32	D	UVA 12049	    Just Prune The List
+Solved	17 / 22	E	UVA 12592	    Slogan Learning of Princess
+Solved	14 / 17	F	UVA 12372	    Packing for Holiday
+Solved	16 / 34	G	UVA 10282	    Babelfish
+Solved	12 / 24	H	UVA 11233	    Deli Deli
+Solved	10 / 17	I	UVA 10107	    What is the Median?
+10 / 32	J	        UVA 10935	    Throwing cards away I
+6 / 12	K	        UVA 12100	    Printer Queue
+6 / 8	L	        UVA 11588	    Image Coding
+Solved	36 / 38	M	CodeForces 41A	Translation
+Solved	11 / 26	N	UVA 11577	    Letter Frequency
+Solved	30 / 38	O	CodeForces 443A	Anton and Letters
+9 / 11	P	        UVA 10008	    What's Cryptanalysis?
+Solved	33 / 41	Q	CodeForces 520A	Pangram
+Solved	22 / 29	R	CodeForces 141A	Amusing Joke
+Solved	17 / 30	S	UVA 12243	    Flowers Flourish from France
+Solved	17 / 33	T	UVA 11713	    Abstract Names
+Solved	17 / 39	U	UVA 10789	    Prime Frequency
+Solved	29 / 62	V	CodeForces 131A	cAPS lOCK
+Solved	34 / 40	W	CodeForces 281A	Word Capitalization
+Solved	28 / 35	X	CodeForces 58A	Chat room
+Solved	41 / 44	Y	CodeForces 236A	Boy or Girl
+Solved	22 / 50	Z	UVA 11734	    Big Number of Teams will Solve This

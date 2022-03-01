@@ -1,0 +1,25 @@
+8 / 13	A	CodeForces 35C	Fire Again
+2 / 3	B	SPOJ DCEPC706	Meeting For Party
+1 / 1	C	SPOJ PUCMM223	C You and Me
+4 / 5	D	SPOJ NAKANJ	Minimum Knight moves !!!
+4 / 4	E	SPOJ SERGRID	Grid
+4 / 12	F	SPOJ KNMOVE	Knight Move
+2 / 3	G	CodeForces 877D	Olya and Energy Drinks
+1 / 1	H	CodeForces 59E	Shortest Path
+1 / 1	I	SPOJ INVESORT	Inversion Sort
+J		SPOJ ADV04F1	Four Chips (Hard)
+1 / 1	K	SPOJ MULTII	Yet Another Multiple Problem
+1 / 1	L	SPOJ SPIKES	Spiky Mazes
+M		CodeForces 821D	Okabe and City
+1 / 1	N	CodeForces 796D	Police Stations
+1 / 1	O	CodeForces 769C	Cycle In Maze
+1 / 1	P	CodeForces 653E	Bear and Forgotten Tree 2
+1 / 1	Q	Gym 100112H	Horror List
+1 / 1	R	SPOJ ADACYCLE	Ada and Cycle
+1 / 1	S	CodeForces 909E	Coprocessor
+T		SPOJ CODESPTI	Repairing Roads
+1 / 1	U	CodeForces 825E	Minimal Labels
+1 / 1	V	CodeForces 770C	Online Courses In BSU
+1 / 1	W	Gym 102058A	Dumae
+X		CodeForces 765E	Tree Folding
+Y		SPOJ SPIRALGR	A Famous Grid

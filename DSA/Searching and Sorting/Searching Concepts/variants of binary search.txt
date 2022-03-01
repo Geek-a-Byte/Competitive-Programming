@@ -1,0 +1,6 @@
+there are 5 variants such as below:
+1) Contains (True or False) 
+2) Index of first occurrence of a key 
+3) Index of last occurrence of a key 
+4) Index of least element greater than key ( ekta key er theke boro shob cheye choto element) 
+5) Index of greatest element less than key (ekta key er theke choto shob cheye boro element)

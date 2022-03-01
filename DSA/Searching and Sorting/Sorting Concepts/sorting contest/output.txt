@@ -1,0 +1,2 @@
+elapsed time for insertion sort:0.002992
+elapsed time for bubble sort:885.477

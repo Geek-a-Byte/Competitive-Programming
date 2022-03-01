@@ -1,0 +1,10 @@
+Distance of 1 from source is: 0
+Distance of 2 from source is: 8
+Distance of 3 from source is: 5
+Distance of 4 from source is: 9
+Distance of 5 from source is: 7
+Path of 1 : 1 
+Path of 2 : 1 -> 3 -> 2 
+Path of 3 : 1 -> 3 
+Path of 4 : 1 -> 3 -> 2 -> 4 
+Path of 5 : 1 -> 3 -> 5 
