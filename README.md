@@ -23,7 +23,6 @@ one stop repository for all my knowledge about dsa in shaa ALLAH
 - [Leetcode-Solutions](https://github.com/Geek-a-Byte/Leetcode-Solutions)
 - [MCPT_contests](https://github.com/Geek-a-Byte/MCPT_contests)
 - [CSES](https://github.com/Geek-a-Byte/CSES)
-- [ngpc-ncpc-prep](https://github.com/Geek-a-Byte/ngpc-ncpc-prep)
 - [leetcode-solution-curation](https://github.com/Tahanima/leetcode-solution-curation)
 - [FastOlympicCoding](https://github.com/Jatana/FastOlympicCoding)
 
