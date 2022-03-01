@@ -44,6 +44,8 @@ one stop repository for all my knowledge about dsa in shaa ALLAH
 
 ## Target
 
+- [ ] [leetcode study plan](https://leetcode.com/study-plan/)
+- [ ] [CSES](https://cses.fi/problemset/list/)
 - [ ] [Hackerrank Problem solving](https://www.hackerrank.com/domains/data-structures)
 - [ ] [Synapse Intermediate classes](https://www.youtube.com/playlist?list=PLcgg4mu-TN21xTr0LwFMw_5UBDrMsoAHA)
 - [ ] [Syanpse Advanced Classes](https://www.youtube.com/watch?v=PRQbOEfHxKw&list=PLHPef-9rM5PXGy2QalI8QtjkLli1ekTpD&index=12&ab_channel=Synapse)
