@@ -1,2 +1,0 @@
-- [ ] [tahanima apu](https://github.com/Tahanima/leetcode-solution-curation)
-- [ ] [leetcode study plan](https://leetcode.com/study-plan/)
