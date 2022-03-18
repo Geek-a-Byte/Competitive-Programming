@@ -7,14 +7,33 @@ one stop repository for all my knowledge about dsa in shaa ALLAH
 - [fast coding package for sublime](https://github.com/Geek-a-Byte/FastOlympicCoding)
 
 ## Timeline
-
-| Dates     | Topics                                                       |
-| --------- | ------------------------------------------------------------ |
-| 22 Oct - 26 Oct | STL, Binary Search, Number Theory, Sqrt Decomposition  |
-| 27 Oct - 02 Nov | Kmp, Hashing, Trie, Segment tree and lazy propagations, Range Minimum Query, Sparse Table |
-| 03 Nov - 09 Nov | Recursion, Basic DP, LCS, Coin Change, Knapsack, LIS/LDS in nlogn, Digit DP |
-| 10 Nov - 18 Nov | BFS, DFS, Dijkstra, Bellmanford, Floyd Warshall, Topological Sorting, MST ( Prims, Kruskal ) |
-| 19 Nov - 23 Nov | Disjoint set/Union Find, Game theory, Basic combinatorics(stars and bars) |
+- STL
+- Binary Search
+- Number Theory
+- Sqrt Decomposition 
+- Kmp
+- Hashing
+- Trie
+- Segment tree and lazy propagations
+- Range Minimum Query
+- Sparse Table
+- Recursion
+- Basic DP
+- LCS
+- Coin Change
+- Knapsack
+- LIS/LDS in nlogn
+- Digit DP 
+- BFS
+- DFS
+- Dijkstra
+- Bellmanford
+- Floyd Warshall
+- Topological Sorting
+- MST ( Prims, Kruskal
+- Disjoint set/Union Find
+- Game theory 
+- Basic combinatorics(stars and bars) 
 
 ## My Repo links
 
