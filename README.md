@@ -37,6 +37,7 @@
 - [Programming contest algos](https://github.com/Shafaet/Programming-Contest-Algorithms)
 - [Shafaet book sudocodes](https://github.com/Shafaet/book-sudocodes)
 - [Programming-Problem-In-Bengali](https://github.com/hasancse91/Programming-Problem-In-Bengali)
+- [Tanzil bhai](https://docs.google.com/document/d/1os2hfyZWK1nNGlbzZiJA0CSWFfEDgmWXfoVox62xHZk/edit#heading=h.l176m5o8k6i)
 
 ## Target
 
@@ -47,9 +48,6 @@
 - [ ] [Syanpse Advanced Classes](https://www.youtube.com/watch?v=PRQbOEfHxKw&list=PLHPef-9rM5PXGy2QalI8QtjkLli1ekTpD&index=12&ab_channel=Synapse)
 - [ ] [Tanzil bhai](https://www.youtube.com/playlist?list=PLLDURmvQUYc_O18kS2Jeql2vLmDXT1AYP)
 
-## Notes
-
-- [Tanzil bhai](https://docs.google.com/document/d/1os2hfyZWK1nNGlbzZiJA0CSWFfEDgmWXfoVox62xHZk/edit#heading=h.l176m5o8k6i)
 
 <!-- ## Target question
 
@@ -64,13 +62,3 @@
 - [ ] [ncpc-2016](https://algo.codemarshal.org/contests/ncpc-uap-2016)
 - [ ] [ncpc-2014](https://algo.codemarshal.org/contests/bd-ncpc-2014)
 - [ ] [ngpc preli 2018](https://algo.codemarshal.org/contests/NGPC18Preli) -->
-
-## target topics related contest
-
-|           topic            | sub-topic                                                    | contest                                                      | password                                        | Problems solved counts | suggested youtube videos                                     |
-| :------------------------: | :----------------------------------------------------------- | :----------------------------------------------------------- | :---------------------------------------------- | ---------------------- | ------------------------------------------------------------ |
-|        graph theory        | BFS<br/> DFS<br>                                             | [Graph Theory Contest](https://vjudge.net/contest/444291)<br>[Graph Theory](https://vjudge.net/contest/397284?fbclid=IwAR2LRYc_naI0mvDB7NJSJBdhiX5LqJTLHy6wbMVOBMEMMeogNkk9iyobYaw)<br>[BFS/DFS](https://vjudge.net/contest/373027) | noam<br>ykuji<br>fddfgf<br>                     |                        |                                                              |
-|            SSSP            | Dijkstra and variations<br/>Bellman Ford and variations<br/>Floyd Warshall and variations<br/> | [Long on Floyd, Bellman](https://vjudge.net/contest/426433)<br>[Dijkstra](https://vjudge.net/contest/386217) | wertqxbn<br>ji7yg<br>                           |                        |                                                              |
-|            MST             | Minimum Spanning Tree ( Prims)<br/>Minimum Spanning Tree ( Kruskal)<br/> |                                                              |                                                 |                        |                                                              |
-|      Data structures       | Topological Sorting<br/>trie<br/>segment tree and lazy propagations<br/>Disjoint set/Union Find<br/>Range Minimum Query<br>Sparse Table<br/>Sqrt Decomposition | [Segment tree](https://vjudge.net/contest/417631)            | hreer                                           |                        |                                                              |
-|            MISC            | Basic combinatorics(stars and bars)<br/>Meet In the Middle Approach<br>Game theory | [Hashing](https://vjudge.net/contest/437431)<br>[combinatorics & mat expo](https://vjudge.net/contest/368280)<br>[Game theory](https://vjudge.net/contest/361281) | berbQ<br>eryhbvc<br>MLC1                        |                        |                                                              |
