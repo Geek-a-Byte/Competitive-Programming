@@ -1,53 +1,31 @@
 # Codebase
-
-one stop repository for all my knowledge about dsa in shaa ALLAH
-
-- <https://mistedu-my.sharepoint.com/:x:/r/personal/201914032_student_mist_ac_bd/_layouts/15/Doc.aspx?sourcedoc=%7B558F3FCA-8BF7-4C43-A7DB-8D5A94D32A7E%7D&file=FINAL450.xlsx&action=edit&mobileredirect=true&wdNewAndOpenCt=1646135192689&ct=1646135192689&wdPreviousSession=d0feaca4-eb4b-42f7-acb4-cafb4f9e4823&wdOrigin=OFFICECOM-WEB.START.UPLOAD&cid=d4d68e88-d5b3-4204-9ae4-b200dee0cca4>
-
-- [fast coding package for sublime](https://github.com/Geek-a-Byte/FastOlympicCoding)
-
 ## Timeline
+
+```
+- Recursion and Backtracking
 - STL
 - Binary Search
 - Number Theory
 - Sqrt Decomposition 
-- Kmp
-- Hashing
-- Trie
+- Kmp,Hashing,Trie
 - Segment tree and lazy propagations
 - Range Minimum Query
 - Sparse Table
-- Recursion
-- Basic DP
-- LCS
-- Coin Change
-- Knapsack
-- LIS/LDS in nlogn
+- Basic DP,LCS,Coin Change,Knapsack,LIS/LDS in nlogn
 - Digit DP 
-- BFS
-- DFS
-- Dijkstra
-- Bellmanford
-- Floyd Warshall
+- BFS,DFS,Dijkstra,Bellmanford,Floyd Warshall
 - Topological Sorting
-- MST ( Prims, Kruskal
+- MST ( Prims, Kruskal ) 
 - Disjoint set/Union Find
 - Game theory 
 - Basic combinatorics(stars and bars) 
-
-## My Repo links
-
-- [Problemsets-Editorials-of-Bangladesh-OnsiteProgrammingContests](https://github.com/Geek-a-Byte/Problemsets-Editorials-of-Bangladesh-OnsiteProgrammingContests)
-- [DSA](https://github.com/Geek-a-Byte/DSA)
-- [Leetcode-Solutions](https://github.com/Geek-a-Byte/Leetcode-Solutions)
-- [MCPT_contests](https://github.com/Geek-a-Byte/MCPT_contests)
-- [CSES](https://github.com/Geek-a-Byte/CSES)
-- [leetcode-solution-curation](https://github.com/Tahanima/leetcode-solution-curation)
-- [FastOlympicCoding](https://github.com/Jatana/FastOlympicCoding)
+```
 
 ## Useful Resources
 
+- [leetcode-solution-curation](https://github.com/Tahanima/leetcode-solution-curation)
 - [Synapse](https://docs.google.com/spreadsheets/d/16DqZGElOw4lm-JP38d-65iZ0FvUhWtuniBxRuCItv4Y/edit#gid=0)
+- [fast coding package for sublime](https://github.com/Geek-a-Byte/FastOlympicCoding)
 - [Tanzil bhai](https://docs.google.com/spreadsheets/d/1zwXs4FAfK2pYpVSenyLXkoGS0doOpK1xmrVkU3PB36M/edit#gid=270414271)
 - [SS bhai](Problem-Solving-Practice/code-library)
 - [Algo DS notes](https://github.com/jainaman224/Algo_Ds_Notes)
@@ -73,7 +51,7 @@ one stop repository for all my knowledge about dsa in shaa ALLAH
 
 - [Tanzil bhai](https://docs.google.com/document/d/1os2hfyZWK1nNGlbzZiJA0CSWFfEDgmWXfoVox62xHZk/edit#heading=h.l176m5o8k6i)
 
-## Target question
+<!-- ## Target question
 
 - [ ] [ngpc-2019](https://toph.co/problems/contests/ngpc-2019)
 - [ ] [ngpc-2019-solve](https://github.com/rebornplusplus/NGPC2019)
@@ -85,7 +63,7 @@ one stop repository for all my knowledge about dsa in shaa ALLAH
 - [ ] [ncpc-2017](https://algo.codemarshal.org/contests/ncpc-2017)
 - [ ] [ncpc-2016](https://algo.codemarshal.org/contests/ncpc-uap-2016)
 - [ ] [ncpc-2014](https://algo.codemarshal.org/contests/bd-ncpc-2014)
-- [ ] [ngpc preli 2018](https://algo.codemarshal.org/contests/NGPC18Preli)
+- [ ] [ngpc preli 2018](https://algo.codemarshal.org/contests/NGPC18Preli) -->
 
 ## target topics related contest
 
