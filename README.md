@@ -27,7 +27,7 @@
 - [Synapse](https://docs.google.com/spreadsheets/d/16DqZGElOw4lm-JP38d-65iZ0FvUhWtuniBxRuCItv4Y/edit#gid=0)
 - [fast coding package for sublime](https://github.com/Geek-a-Byte/FastOlympicCoding)
 - [Tanzil bhai](https://docs.google.com/spreadsheets/d/1zwXs4FAfK2pYpVSenyLXkoGS0doOpK1xmrVkU3PB36M/edit#gid=270414271)
-- [Shahjalal Shohag bhai](Problem-Solving-Practice/code-library)
+- [Shahjalal Shohag bhai](https://github.com/ShahjalalShohag/code-library)
 - [Algo DS notes](https://github.com/jainaman224/Algo_Ds_Notes)
 - [Algorithmic-Pseudocode](https://github.com/Just-A-Visitor/Algorithmic-Pseudocode)
 - [CLRS](https://github.com/gzc/CLRS)
