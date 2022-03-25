@@ -49,6 +49,10 @@
 - [ ] [Syanpse Advanced Classes](https://www.youtube.com/watch?v=PRQbOEfHxKw&list=PLHPef-9rM5PXGy2QalI8QtjkLli1ekTpD&index=12&ab_channel=Synapse)
 - [ ] [Tanzil bhai](https://www.youtube.com/playlist?list=PLLDURmvQUYc_O18kS2Jeql2vLmDXT1AYP)
 
+## cf blogs
+- [problem topics](https://codeforces.com/blog/entry/55274)
+- [All the good tutorials found for Competitive Programming](https://codeforces.com/blog/entry/57282)
+- [I compiled a list of almost all useful blogs ever published on Codeforces [update: till 09.06.2021]](https://codeforces.com/blog/entry/91363)
 
 <!-- ## Target question
 
