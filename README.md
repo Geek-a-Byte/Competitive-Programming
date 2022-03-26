@@ -2,7 +2,7 @@
 ## Timeline
 
 - [intermediate contest topics and problem solutions](https://docs.google.com/spreadsheets/d/1HML2NaADcbG79nyJ9odDd_4UVLFQiKhfNsuCT3Gwj-o/edit#gid=0)
-- 
+- [my personal tracker](https://docs.google.com/spreadsheets/d/1T1JZS4NY13G94eeBvd84uVNXbLdUPBP3NR1ePT6zbPY/edit#gid=209066802)
 
 ```
 - Recursion and Backtracking
