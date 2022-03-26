@@ -21,6 +21,11 @@
 - Basic combinatorics(stars and bars) 
 ```
 
+## Recursion and Backtracking
+- https://quanticdev.com/tools/recursion-visualization/
+- https://youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
+
+
 ## Useful Resources
 
 - [leetcode-solution-curation](https://github.com/Tahanima/leetcode-solution-curation)
