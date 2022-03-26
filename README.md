@@ -32,7 +32,7 @@
 
 ## Number theory
 
-- <https://www.youtube.com/watch?v=0T1-IjBM9jA&list=PLgLCjVh3O6Si82JG4dSp6iSQQnXBM3wjT&index=1&ab_channel=LoveExtendsCode>
+- [love extends code youtube channel](https://www.youtube.com/watch?v=0T1-IjBM9jA&list=PLgLCjVh3O6Si82JG4dSp6iSQQnXBM3wjT&index=1&ab_channel=LoveExtendsCode)
 - <http://www.progkriya.org/gyan/basic-number-theory.html>
 - <https://forthright48.com/p-cpps-101/>
 
