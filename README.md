@@ -1,33 +1,40 @@
 # Codebase
+
 ## Timeline
 
 - [intermediate contest topics and problem solutions](https://docs.google.com/spreadsheets/d/1HML2NaADcbG79nyJ9odDd_4UVLFQiKhfNsuCT3Gwj-o/edit#gid=0)
 - [my personal tracker](https://docs.google.com/spreadsheets/d/1T1JZS4NY13G94eeBvd84uVNXbLdUPBP3NR1ePT6zbPY/edit#gid=209066802)
 
-```
+```txt
 - Recursion and Backtracking
 - STL
 - Binary Search
 - Number Theory
-- Sqrt Decomposition 
+- Sqrt Decomposition
 - Kmp,Hashing,Trie
 - Segment tree and lazy propagations
 - Range Minimum Query
 - Sparse Table
 - Basic DP,LCS,Coin Change,Knapsack,LIS/LDS in nlogn
-- Digit DP 
+- Digit DP
 - BFS,DFS,Dijkstra,Bellmanford,Floyd Warshall
 - Topological Sorting
-- MST ( Prims, Kruskal ) 
+- MST ( Prims, Kruskal )
 - Disjoint set/Union Find
-- Game theory 
-- Basic combinatorics(stars and bars) 
+- Game theory
+- Basic combinatorics(stars and bars)
 ```
 
 ## Recursion and Backtracking
-- https://quanticdev.com/tools/recursion-visualization/
-- https://youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9
 
+- <https://quanticdev.com/tools/recursion-visualization/>
+- <https://youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9>
+
+## Number theory
+
+- <https://www.youtube.com/watch?v=0T1-IjBM9jA&list=PLgLCjVh3O6Si82JG4dSp6iSQQnXBM3wjT&index=1&ab_channel=LoveExtendsCode>
+- <http://www.progkriya.org/gyan/basic-number-theory.html>
+- <https://forthright48.com/p-cpps-101/>
 
 ## Useful Resources
 
@@ -58,20 +65,7 @@
 - [ ] [Tanzil bhai](https://www.youtube.com/playlist?list=PLLDURmvQUYc_O18kS2Jeql2vLmDXT1AYP)
 
 ## cf blogs
+
 - [problem topics](https://codeforces.com/blog/entry/55274)
 - [All the good tutorials found for Competitive Programming](https://codeforces.com/blog/entry/57282)
 - [I compiled a list of almost all useful blogs ever published on Codeforces [update: till 09.06.2021]](https://codeforces.com/blog/entry/91363)
-
-<!-- ## Target question
-
-- [ ] [ngpc-2019](https://toph.co/problems/contests/ngpc-2019)
-- [ ] [ngpc-2019-solve](https://github.com/rebornplusplus/NGPC2019)
-- [ ] [ngpc-2015](https://algo.codemarshal.org/contests/ngpc2015)
-- [ ] [ngpc-2017](https://algo.codemarshal.org/contests/ngpc2017)
-- [ ] [ngpc-2018](https://algo.codemarshal.org/contests/ngpc18)
-- [ ] [ncpc-2020](https://algo.codemarshal.org/contests/mist-ncpc-2020)
-- [ ] [ncpc-2018](https://algo.codemarshal.org/contests/ncpc18)
-- [ ] [ncpc-2017](https://algo.codemarshal.org/contests/ncpc-2017)
-- [ ] [ncpc-2016](https://algo.codemarshal.org/contests/ncpc-uap-2016)
-- [ ] [ncpc-2014](https://algo.codemarshal.org/contests/bd-ncpc-2014)
-- [ ] [ngpc preli 2018](https://algo.codemarshal.org/contests/NGPC18Preli) -->
