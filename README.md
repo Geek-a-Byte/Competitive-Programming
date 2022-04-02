@@ -25,6 +25,13 @@
 - Basic combinatorics(stars and bars)
 ```
 
+## memory constraint 
+- log<sub>2</sub>(10^9) = 29.9 = 30 bit = int/float (32b/4B)
+- log<sub>2</sub>(10^10) = 33 bits = long long int/double (64b/8B) 
+- log<sub>2</sub>(10^18) = 60 bits = long long int
+
+
+
 ## Recursion and Backtracking
 
 - <https://quanticdev.com/tools/recursion-visualization/>
