@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+    
 int main()
 {
     int n;
@@ -22,7 +22,8 @@ int main()
                 s1.insert(x);
             }
         }
-
+        
+    
         if (s1.size() == 26)
         {
             cout << "YES";
