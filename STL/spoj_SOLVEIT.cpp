@@ -16,23 +16,44 @@
 #define ff first
 #define ss second
 #define PII pair<int, int>
+#define mx 10000000
 void fileOJ()
 {
 #ifndef ONLINE_JUDGE
     IO
 #endif
 }
-
 using namespace std;
+
 int main()
 {
     FIO
     fileOJ();
-    int n;
-    cin >> n;
-    for (int i = 0; i < n; i++)
+    int n, q;
+    cin >> n >> q;
+    set<int> s;
+    for (int i = 0; i < q; i++)
     {
-        cout << "regal 1000000001" << endl;
+        int op, k, y;
+        cin >> op;
+        if (op == 1)
+        {
+            cin >> k;
+            s.insert(k);
+        }
+        else
+        {
+            cin >> y;
+            auto index = s.lower_bound(y);
+            if (index != s.end())
+            {
+                cout << *index << "\n";
+            }
+            else
+            {
+                cout << "-1\n";
+            }
+        }
     }
     return 0;
 }
