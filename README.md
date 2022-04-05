@@ -42,6 +42,7 @@
 - [love extends code youtube channel](https://www.youtube.com/watch?v=0T1-IjBM9jA&list=PLgLCjVh3O6Si82JG4dSp6iSQQnXBM3wjT&index=1&ab_channel=LoveExtendsCode)
 - <http://www.progkriya.org/gyan/basic-number-theory.html>
 - <https://forthright48.com/p-cpps-101/>
+- [code N code](https://www.youtube.com/watch?v=eRkqvQtm4DU&list=PL2q4fbVm1Ik4liHX78IRslXzUr8z5QxsG&ab_channel=CodeNCode)
 
 ## Useful Resources
 
