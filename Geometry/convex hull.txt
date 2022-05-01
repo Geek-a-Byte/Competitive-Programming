@@ -1,0 +1,151 @@
+A convex hull is a polygon which has the minimum circumference which includes the other points.
+
+1. if you have three points in a straight line, all three points would form path of the convex hull
+
+
+sort the points based on the x-axis
+if two points have same x-coordinates, the point with lower y-coordinate would be the leftmost point
+
+now we have to compute the convex points from the leftmost point all the way to the rightmost point
+for the lower path of the convex hull
+
+similarly, we have to compute the convex points from the rightmost point all the way to the leftmost point
+for the upper path of the convex hull
+
+once the two paths are found, we would select unique points from the union of those two paths
+
+   \ /
+    B
+   / \
+  /   \
+ A	 C
+
+now imagine moving one line to the other in directions of clockwise and anticlockwise
+here AB moves towards BC in clockwise direction
+
+ 
+      C
+       \
+        \
+A--------B--
+	    \
+here AB moves towards BC in anticlockwise direction
+
+
+            C  
+           /
+          /
+A--------B--
+	  /
+here AB moves towards BC in anticlockwise direction
+
+
+     B  
+      \
+       \
+        \   
+ --------\-----C
+	    \
+          A
+here AB moves towards BC in clockwise direction
+
+
+A----B---C
+first and second line are basically the same line. where the angle would be 0
+
+
+for clockwise indication, we would use +ve
+for anticlockwise indication, we would use -ve
+for colinear, we would use 0
+for this, we would use cross product of two vectors
+
+1
+| \
+|  \
+|   4
+|    \ 
+| 3 5 6     
+|    / 
+|   /
+|  /
+| /
+2
+
+the movement is counterclockwise from 12 to 26
+the movement is counterclockwise from 26 to 64
+the movement is colinear from 64 to 41
+the movement is counterclockwise from 41 to 12
+
+now for the lower hull we would traverse from the leftmost point to the rightmost point
+Now we are going to maintain a stack
+we are gonna move from the leftmost point to the rightmost point based on our sorted array of points
+if number of points in the stack is <2, then we would add the points we get from left to right traversal
+so we add 1,2 to stack
+
+now consider last two points of the stack - 1,2 
+as 12 to 23 is counter clockwise movement - we add 3 to stack
+
+now consider last two points of the stack - 2,3 
+as 23 to 34 is clockwise movement - we should remove 3 from stack
+as convex hull always have 3 consecutive points that has counterclockwise movements
+
+now consider last two points of the stack - 1,2
+as 12 to 24 is counter clockwise movement - add 4 to stack
+
+now consider last two points of the stack - 2,4
+as 24 to 45 is clockwise movement - pop 4 from stack
+
+now consider last two points of the stack - 1,2
+as 12 to 25 is counter clockwise movement - add 5 to stack
+
+now consider last two points of the stack - 2,5
+as 25 to 56 is clockwise movement - pop 5 from stack
+
+now consider last two points of the stack - 1,2
+as 12 to 26 is counter clockwise movement - add 6 to stack
+
+now 1,2,6 is the lower section points of the hull
+
+now for the upper hull we would traverse from the rightmost point to the leftmost point
+Now we are going to maintain another stack
+we are gonna move from the rightmost point to leftmost point based on our sorted array of points
+if number of points in the stack is <2, then we would add the points we get from right to left traversal
+so we add 6,5 to stack
+
+now consider last two points of the stack - 6,5 
+as 65 to 54 is clockwise movement - we remove 5 from stack
+now as we have only 6 on stack, we need to push 4 
+
+now consider last two points of the stack - 6,4 
+as 64 to 43 is counter clockwise movement - we add 3 to stack
+
+now consider last two points of the stack - 4,3 
+as 43 to 32 is counter clockwise movement - we add 2 to stack
+
+now consider last two points of the stack - 3,2 
+as 32 to 21 is clockwise movement - we remove 2 from stack
+ 
+now consider last two points of the stack - 4,3 
+as 43 to 31 is clockwise movement - we remove 3 from stack
+
+now consider last two points of the stack - 6,4 
+as 64 to 41 is colinear movement - we add 1 to stack
+
+now 1,4,6 is the upper section points of the hull
+
+unique result - 1,2,4,6
+
+O(nlogn) - time complexity 
+O(n) - space complexity
+
+
+for cross product calculation -
+
+three points A(xa,ya), B(xb,yb), C(xc,yc)
+cp = ((xa-xb)*(yc-yb))-((ya-yb)*(xc-xb))
+cp < 0 -> counter clockwise
+cp > 0 -> clockwise
+cp = 0 -> colinear
+
+
+
