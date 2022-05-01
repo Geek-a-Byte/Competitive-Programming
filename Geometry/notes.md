@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/59027621/166135477-78efe07d-1b10-434f-a6cc-f8fa29628c9b.png)
+
 ## check if two given line segments intersect
 
 ```cpp
