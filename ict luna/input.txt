@@ -1,0 +1,15 @@
+7
+category
+\Bcat\B
+caterpillar
+\Bat\B
+Her father is a professor
+\Bthe\B
+There is no water in the mug
+\Bthe\B
+computation
+\Bon\B
+Javascript
+\Bvas\B
+Wash your face with facewash daily
+\Bface\B

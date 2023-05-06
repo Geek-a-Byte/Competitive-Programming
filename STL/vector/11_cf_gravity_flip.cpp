@@ -8,7 +8,6 @@ int main()
     vector<int> a;
     while (t--)
     {
-
         int x;
         cin >> x;
         a.push_back(x);
