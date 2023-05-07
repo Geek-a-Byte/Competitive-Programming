@@ -51,6 +51,7 @@ node* newNode(int value){
     return nnode;
 }
 
+
 // O(n) solution
 int maxDepth(node* node)
 {
@@ -58,28 +59,13 @@ int maxDepth(node* node)
         return 0;
     else {
         int lDepth = maxDepth(node->left);
+        if(lDepth==-1) return -1;
         int rDepth = maxDepth(node->right);
+        if(rDepth == -1) return -1;
+        if(abs(lDepth-rDepth)>1) return -1;
         return max(lDepth, rDepth)+1;
     }
 }
-
-// O(n^2) solution
-bool isBalanced(node* node)
-{
-    if (node == NULL)
-        return true;
-    
-    int lDepth = maxDepth(node->left);
-    int rDepth = maxDepth(node->right);
-    if(abs(lDepth-rDepth)>1) return false;
-    
-    bool left=isBalanced(node->left);
-    bool right=isBalanced(node->right);
-    
-    if(!left or !right) return false;
-    return true;
-}
-
 
 signed main()
 {
@@ -90,7 +76,9 @@ signed main()
     root->right = newNode(3);
     root->left->left = newNode(4);
     root->left->right = newNode(5);
-
-    cout << "Height of tree is " << maxDepth(root);
+    // root->left->right->right = newNode(6);
+    
+    if(maxDepth(root)==-1) cout<<"Unbalanced tree"<<endl;
+    else cout<<"Balanced tree"<<endl;
     return 0;
 }

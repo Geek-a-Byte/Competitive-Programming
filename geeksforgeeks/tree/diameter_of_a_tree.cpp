@@ -92,6 +92,6 @@ signed main()
 
     dfs(root, -1, 0);
     trace(max_lvl, max_node);
-    cout<<"The number of the nodes in the longest path of the tree i.e diameter: "<<max_node+1<<endl;
+    cout<<"The number of the nodes in the longest path of the tree i.e diameter: "<<max_lvl+1<<endl;
     // cout << max_lvl << endll;
 }
