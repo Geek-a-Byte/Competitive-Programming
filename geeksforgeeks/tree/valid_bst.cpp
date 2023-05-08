@@ -75,7 +75,7 @@ signed main()
     root->left->right = newNode(3);
 
     // Function call
-    if (isValidBST(root, INT_MIN, INT_MAX))
+    if (isValidBST(root, LONG_MIN, LONG_MAX))
         printf("Is BST");
     else
         printf("Not a BST");
