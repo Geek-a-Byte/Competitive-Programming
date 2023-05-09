@@ -40,6 +40,8 @@ void fileOJ()
 int reachMatrix[1000][1000];
 int nextNode[1000][1000];
 
+// http://www.shafaetsplanet.com/?p=1927
+
 void initMat(int n)
 {
     for(int i=1; i<=n; i++)
