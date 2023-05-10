@@ -1,20 +1,5 @@
-0 3 5 2147483647 
-2 0 2 2147483647 
-7 5 0 2147483647 
-15 13 8 0 
-the shortest path between 1 to 1 : 1 
-the shortest path between 1 to 2 : 1 2 
-the shortest path between 1 to 3 : 1 2 3 
-There is no path between 1 to 4
-the shortest path between 2 to 1 : 2 1 
-the shortest path between 2 to 2 : 2 
-the shortest path between 2 to 3 : 2 3 
-There is no path between 2 to 4
-the shortest path between 3 to 1 : 3 2 1 
-the shortest path between 3 to 2 : 3 2 
-the shortest path between 3 to 3 : 3 
-There is no path between 3 to 4
-the shortest path between 4 to 1 : 4 3 2 1 
-the shortest path between 4 to 2 : 4 3 2 
-the shortest path between 4 to 3 : 4 3 
-the shortest path between 4 to 4 : 4 
+1 3 46
+1 2 50
+-1
+2 3 5
+-1
