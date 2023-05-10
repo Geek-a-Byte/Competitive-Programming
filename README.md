@@ -1,5 +1,16 @@
 # Codebase
 
+- https://www.geeksforgeeks.org/top-50-tree-coding-problems-for-interviews/
+- https://www.geeksforgeeks.org/top-50-dynamic-programming-coding-problems-for-interviews/
+- https://www.geeksforgeeks.org/top-50-graph-coding-problems-for-interviews/
+- https://www.geeksforgeeks.org/top-50-string-coding-problems-for-interviews/
+- https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/
+- https://cses.fi/problemset/
+- https://www.hackerrank.com/domains/algorithms
+- https://takeuforward.org/dynamic-programming/striver-dp-series-dynamic-programming-problems/
+
+
+
 ## Timeline
 
 - [intermediate contest topics and problem solutions](https://docs.google.com/spreadsheets/d/1HML2NaADcbG79nyJ9odDd_4UVLFQiKhfNsuCT3Gwj-o/edit#gid=0)
