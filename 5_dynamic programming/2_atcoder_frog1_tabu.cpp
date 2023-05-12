@@ -11,7 +11,9 @@ int fn(vector<int> v)
 {
     for (int i = 2; i < v.size(); i++)
     {
-        dp[i] = min(dp[i - 2] + abs(v[i - 2] - v[i]), dp[i - 1] + abs(v[i - 1] - v[i]));
+        int fs = dp[i - 1] + abs(v[i - 1] - v[i]);
+        int ss = dp[i - 2] + abs(v[i - 2] - v[i]);
+        dp[i] = min(fs,ss);
     }
     return dp[v.size() - 1];
 }
