@@ -8,7 +8,7 @@ using namespace std;
 #define TC int tc; cin >> tc; for (int cn = 1; cn <= tc; ++cn)
 #define rep(i,n) for(int i = 0; i < n; i++)
 
-#define int long long
+#define int unsigned long long
 #define ll long long int
 #define ull unsigned long long int
 #define ui unsigned int
@@ -48,5 +48,5 @@ signed main()
     int n;
     cin>>n;
     vector<int>dp(n+1, -1);
-    cout<<f(n, dp)<<endl;
+    cout<<f(n, dp)%mod<<endl;
 }
