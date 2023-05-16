@@ -105,6 +105,7 @@ class Solution{
     // Function should return all the ancestor of the target node
     bool getPath(struct Node * root, int x, vector<int>& arr)
     {
+        // if this is a empty tree
         if(root==NULL)
         {
             return false;

@@ -18,7 +18,7 @@ public:
             return NULL;
         }
         TreeNode* root=new TreeNode(preorder[pres]);
-         
+        
         //find out where the root is in inorder traversal
         int inRoot=inMap[preorder[pres]];
         int numsLeft=inRoot-inos;
