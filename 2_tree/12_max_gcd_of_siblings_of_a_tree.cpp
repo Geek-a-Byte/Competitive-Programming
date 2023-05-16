@@ -42,7 +42,7 @@ void fileOJ()
 
 int max_gcd(vector<pair<int,int>>&v)
 {
-    if(v.size()==0 or v.size()==0)
+    if(v.size()==0)
     {
         return 0;
     }

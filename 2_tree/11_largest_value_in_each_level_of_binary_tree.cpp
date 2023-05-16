@@ -40,6 +40,7 @@ vector<int>graph[1000];
 bool visited[1000]={false};
 void bfs(int root)
 {
+    // cout<<"hello\n";
     visited[root]=1;
     queue<int>q;
     q.push(root);
@@ -48,7 +49,7 @@ void bfs(int root)
     {
         cout<<"at level "<<lvl++<<": "<<endl;
         int nc=q.size(); //no of nodes in the current lvl
-        int max_node=0;
+        int max_node=INT_MIN;
         while(nc--)
         {
             int parent=q.front();
@@ -86,11 +87,11 @@ signed main()
     }
     
     bfs(root);
-    cout<<"max at each level\n";
-    for(auto i:max_at_each_level)
-    {
-        cout<<i<<" ";
-    }
+    // cout<<"max at each level\n";
+    // for(auto i:max_at_each_level)
+    // {
+    //     cout<<i<<" ";
+    // }
 }
 
 // input

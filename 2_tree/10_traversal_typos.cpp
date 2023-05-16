@@ -91,6 +91,7 @@ void postOrder(node* node)
 
 /* Helper function to print
 preorder traversal.*/
+// inorder always gives the sorted version of the tree
 void inOrder(node* node)
 {
     if (node == NULL)

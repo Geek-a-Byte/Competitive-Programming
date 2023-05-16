@@ -40,16 +40,16 @@ public:
     int data;
     node* left;
     node* right;
+
+    node(int x)
+    {
+        data=x;
+        left=NULL;
+        right=NULL;
+    }
 };
 
-node* newNode(int value){
-    node* nnode= new node();
-    nnode->data=value;
-    nnode->left=NULL;
-    nnode->right=NULL;
 
-    return nnode;
-}
 
 // O(n) solution
 int maxDepth(node* node)
@@ -84,12 +84,12 @@ bool isBalanced(node* node)
 signed main()
 {
     fast
-    node* root = newNode(1);
+    node* root = new node(1);
  
-    root->left = newNode(2);
-    root->right = newNode(3);
-    root->left->left = newNode(4);
-    root->left->right = newNode(5);
+    root->left = new node(2);
+    root->right = new node(3);
+    root->left->left = new node(4);
+    root->left->right = new node(5);
 
     cout << "Height of tree is " << maxDepth(root);
     return 0;

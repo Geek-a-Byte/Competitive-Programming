@@ -62,12 +62,12 @@ int isSumProperty(node* node)
     if (node->left == NULL && node->right == NULL) 
         return 1;
     else {
-        if (node->left != NULL)  
+        if (node->left)  
         {
             sum += node->left->data;
             cout <<"left value: "<<node->left->data << " ";
         }
-        if (node->right != NULL)  
+        if (node->right)  
         {
             sum += node->right->data;
             cout <<"right value: "<<node->right->data << " ";

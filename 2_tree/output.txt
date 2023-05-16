@@ -1,1 +1,8 @@
-9
+at level 0: 
+4 
+at level 1: 
+9 2 
+at level 2: 
+3 5 7 
+max at each level
+4 9 7 

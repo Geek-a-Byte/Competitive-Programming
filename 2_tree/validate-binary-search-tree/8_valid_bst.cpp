@@ -51,50 +51,34 @@ node* newNode(int value){
     return nnode;
 }
 
-int identicalTrees(node* tree1, node* tree2)
-{
-   if(tree1==NULL and tree2==NULL)
-   {
-      return 1;
-   }
-   else if(tree1 and tree2 and tree1->data==tree2->data)
-   {
-      int left_subtrees_same = identicalTrees(tree1->left, tree2->left);
-      int right_subtrees_same = identicalTrees(tree1->right, tree2->right);
-      return (left_subtrees_same && right_subtrees_same);
-   }
-   return 0;
+bool isValidBST(node* node,int minVal, int maxVal){
+     // empty tree
+     if(node==NULL)
+     {
+        return true;
+     }
+     if(node->data<=minVal or node->data>=maxVal) return false;
+     else 
+     {
+        return (isValidBST(node->left, minVal, node->data) && isValidBST(node->right, node->data, maxVal));
+     }
 }
+
 
 signed main()
 {
     fast
-    node* root1 = newNode(1);
- 
-    root1->left = newNode(2);
-    root1->right = newNode(3);
-    root1->left->left = newNode(4);
-    root1->left->right = newNode(5);
-
-
-    node* root2 = newNode(1);
- 
-    root2->left = newNode(2);
-    root2->right = newNode(3);
-    root2->left->left = newNode(4);
-    root2->left->right = newNode(5);
-
-    node* root3 = newNode(1);
- 
-    root3->left = newNode(2);
-    root3->right = newNode(4);
-    root3->left->left = newNode(5);
-    root3->left->right = newNode(6);
+    node* root = newNode(4);
+    root->left = newNode(2);
+    root->right = newNode(5);
+    root->right->left = newNode(7);
+    root->left->left = newNode(1);
+    root->left->right = newNode(3);
 
     // Function call
-    if (identicalTrees(root2, root3))
-        printf("Both trees are identical.");
+    if (isValidBST(root, LONG_MIN, LONG_MAX))
+        printf("Is BST");
     else
-        printf("Trees are not identical.");
+        printf("Not a BST");
     return 0;
 }
